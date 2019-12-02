@@ -1,0 +1,17 @@
+/* background */
+body {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 65% 25% 20%;
+}
+#background {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  background-color: blueviolet;
+  height: 100%;
+  width: 100%;
+/*  background-image: url(images/background.jpg); */
+}
+#apple {
+  object-fit: fill;
+}
