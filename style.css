@@ -7,13 +7,71 @@ body {
 #background {
   grid-column: 1/5;
   grid-row: 1/2;
-  background-color: blueviolet;
+  background-image: url(images/background.jpg);
   height: 100%;
   width: 100%;
-/*  background-image: url(images/background.jpg); */
 }
 
 /* nav var images */
-#apple {
-  object-fit: fill;
+figure {
+  width: 80px;
+  height: 25px;
+  overflow: hidden;
+}
+
+#nav_apple {
+  margin-left: -42px;
+  margin-top: 0;
+}
+
+#nav_store {
+  margin-left: -42px;
+  margin-top: 0;
+}
+
+#nav_mac {
+  margin-left: -42px;
+  margin-top: 0;
+}
+
+#nav_ipod {
+  margin-left: -42px;
+  margin-top: 0;
+}
+
+#nav_iphone {
+  margin-left: -42px;
+  margin-top: 0;
+}
+
+#nav_ipad {
+  margin-left: -42px;
+  margin-top: 0;
+}
+
+#nav_itunes {
+  margin-left: -42px;
+  margin-top: 0;
+}
+
+#nav_support {
+  margin-left: -42px;
+  margin-top: 0;
+}
+
+/* buttons */
+#buttons{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.nav_but{
+  width: 10%;
+  height: 40.63px;
+}
+
+button {
+  width: 100%;
+  height: 40.63px;
 }
