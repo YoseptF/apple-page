@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 </head>
-
 <body>
     <div id="background">
         <nav>
@@ -52,14 +55,10 @@
             </div>
         </div>
     </div>
-    <a id="one" href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/iphone-5s/">
-    <img src="images/iphone5s.jpg" alt="iphone5s"></a>
-    <a id="two" href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/iphone-5c/">
-    <img src="images/iphone5c.jpg" alt="iphone5c"></a>
-    <a id="three" href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/30-years/">
-    <img src="images/birthday.jpg" alt="birthday mac"></a>
-    <a id="four" href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/supplier-responsibility/">
-    <img src="images/supplier.jpg" alt="supplier responsability"></a>
+    <a class="child" id="one" href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/iphone-5s/"></a>
+    <a class="child" id="two" href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/iphone-5c/"></a>
+    <a class="child" id="three" href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/30-years/"></a>
+    <a class="child" id="four" href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/supplier-responsibility/"></a>
     <footer>
         <div id="f_top_left">
             <p>Shop the <a href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://store.apple.com/us">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://store.apple.com/us">Apple Retail Store</a>, or find a <a href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/buy/">reseller</a>.</p>
@@ -81,5 +80,11 @@
             <p><a id="last_a" href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/legal/privacy/">Privacy Policy</a></p>
         </div>
     </footer>
+    <script type="text/javascript">
+        var cw = $('.child').width();
+            $('.child').css({
+                'height': cw + 'px'
+            });
+    </script>
 </body>
 </html>

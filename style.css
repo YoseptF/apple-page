@@ -17,24 +17,43 @@ body {
   width: 100%;
 }
 
+.child {
+  display: block;
+  width: 98%;
+  overflow: hidden;
+  margin: 1%;
+}
+
 #one {
   grid-column: 1/2;
-  width: 100%;
+  background-image: url("images/iphone5s.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position-x: center;
 }
 
 #two {
   grid-column: 2/3;
-  width: 100%;
+  background-image: url("images/iphone5c.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position-x: center;
 }
 
 #three {
   grid-column: 3/4;
-  width: 100%;
+  background-image: url("images/birthday.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position-x: center;
 }
 
 #four {
   grid-column: 4/5;
-  width: 100%;
+  background-image: url("images/supplier.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position-x: center;
 }
 
 footer {
