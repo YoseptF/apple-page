@@ -10,7 +10,7 @@ I tried to use JS and JQuery into the project but since I don't know how it work
 
 Stylelint for CSS and W3C Markup Validator for HTML.
 
-# Participants
+# Participant
 
 Lucas Mazo: 
     GitHub: lucasmazo32
