@@ -4,14 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <title>Apple page</title>
 </head>
 
 <body>
     <div id="background">
-        <a id="top_link" href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/your-verse/">
+        <a id="top_link"
+            href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/your-verse/">
         </a>
         <nav>
             <div id="buttons">
@@ -60,15 +58,18 @@
             </div>
         </a>
     </div>
-    <a class="child" id="one"
-        href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/iphone-5s/"></a>
-    <a class="child" id="two"
-        href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/iphone-5c/"></a>
-    <a class="child" id="three"
-        href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/30-years/"></a>
-    <a class="child" id="four"
-        href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/supplier-responsibility/"></a>
+    <div id="links">
+        <a href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/iphone-5s/">
+            <img src="images/iphone5s.jpg" alt=""></a>
+        <a href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/iphone-5c/">
+            <img src="images/iphone5c.jpg" alt=""></a>
+        <a href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/30-years/">
+            <img src="images/birthday.jpg" alt=""></a>
+        <a href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/supplier-responsibility/">
+            <img src="images/supplier.jpg" alt=""></a>
+    </div>
     <footer>
+        <div id="f_top">
         <div id="f_top_left">
             <p>Shop the <a
                     href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://store.apple.com/us">Apple
@@ -105,6 +106,7 @@
                     US</a>
             </p>
         </div>
+        </div>
         <div id="f_bottom">
             <p>Copyright © 2014 Apple Inc. All rights reserved. <a class="pad_a"
                     href="https://archive.md/o/UW4oR/https://web.archive.org/web/20140301004610/http://www.apple.com/legal/">Terms
@@ -114,12 +116,6 @@
                     Policy</a></p>
         </div>
     </footer>
-    <script>
-        var cw = $('.child').width();
-        $('.child').css({
-            'height': cw + 'px'
-        });
-    </script>
 </body>
 
 </html>
