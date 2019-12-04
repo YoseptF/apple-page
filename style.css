@@ -98,7 +98,7 @@ body {
 /* nav bar */
 
 nav {
-  margin-top: 10%;
+  padding-top: 10%;
 }
 
 #buttons {
@@ -188,7 +188,7 @@ button:hover {
   height: 97px;
   overflow: hidden;
   margin: 0 auto;
-  margin-top: 1%;
+  padding-top: 1%;
 }
 
 #what_will img {
@@ -217,7 +217,7 @@ button:hover {
   overflow: hidden;
   margin: 0 auto;
   margin-top: 2%;
-  margin-bottom: 12%;
+  padding-bottom: 12%;
 }
 
 #yourverse img {
