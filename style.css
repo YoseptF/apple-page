@@ -7,9 +7,35 @@ body {
 #background {
   grid-column: 1/5;
   grid-row: 1/2;
-  background-image: url(images/background.jpg);
+  background-image: url("images/background.jpg");
+  background-position: bottom;
   height: 100%;
   width: 100%;
+}
+
+#one {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+#two {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+#three {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+
+#four {
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+
+footer {
+  grid-row: 3/4;
+  grid-column: 1/5;
 }
 
 /* nav var images */
@@ -62,6 +88,11 @@ figure {
 }
 
 /* nav bar */
+
+nav {
+  margin-top: 10%;
+}
+
 #buttons{
   display: flex;
   flex-flow: row;
@@ -106,7 +137,12 @@ button {
 }
 
 #inp i {
-  position: absolute;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  top: 35%;
+  left: 15%;
 }
 
 #inp input{
@@ -119,13 +155,33 @@ button {
     #727472
   );
   height: 22px;
-  margin: auto auto;
+  margin: auto 0;
   border: solid 0.3px black;
   border-radius: 20.315px;
+  width: 60%;
+  padding-left: 20%;
+  color: white;
 }
 
 #f_but {
   border-left: solid 0.2px #606260;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
+}
+
+/* Header of the page */
+
+#what_will {
+  width: 900px;
+  height: 110.2px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#what_will img {
+  justify-self: center;
+  top: 0;
+  left: 0;
+  width: 900px;
+  height: auto;
 }
