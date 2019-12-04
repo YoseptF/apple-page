@@ -22,6 +22,11 @@ body {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #08c;
+}
+
 #links a {
   display: block;
   overflow: hidden;
@@ -227,11 +232,6 @@ footer {
   flex-flow: row;
   justify-content: space-between;
   width: 100%;
-}
-
-a {
-  text-decoration: none;
-  color: #08c;
 }
 
 #f_top_left {
