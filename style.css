@@ -57,51 +57,42 @@ body {
 
 /* nav var images */
 .figu {
-  width: 80px;
-  height: 25px;
-  overflow: hidden;
-  margin: auto auto;
-  padding-bottom: 5px;
-}
-
-#nav_apple {
-  margin-left: -42px;
-  margin-top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/nav.png");
+  background-position-x: center;
+  margin: 0 auto;
+  background-position-y: 4px;
 }
 
 #nav_store {
-  margin-left: -42px;
-  margin-top: -30px;
+  background-position-y: -26px;
 }
 
 #nav_mac {
-  margin-left: -42px;
-  margin-top: -60px;
+  background-position-y: -56px;
 }
 
 #nav_ipod {
-  margin-left: -42px;
-  margin-top: -90px;
+  background-position-y: -86px;
 }
 
 #nav_iphone {
-  margin-left: -42px;
-  margin-top: -120px;
+  background-position-y: -116px;
 }
 
 #nav_ipad {
-  margin-left: -42px;
-  margin-top: -150px;
+  background-position-y: -146px;
 }
 
 #nav_itunes {
-  margin-left: -42px;
-  margin-top: -180px;
+  background-position-y: -176px;
 }
 
 #nav_support {
-  margin-left: -42px;
-  margin-top: -210px;
+  height: 90%;
+  background-position-y: -208px;
 }
 
 /* nav bar */
@@ -119,6 +110,10 @@ nav {
 .nav_but {
   width: 9%;
   height: 40.63px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 button {
