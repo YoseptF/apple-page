@@ -56,7 +56,7 @@ body {
 }
 
 /* nav var images */
-figure {
+.figu {
   width: 80px;
   height: 25px;
   overflow: hidden;
